@@ -34,6 +34,11 @@
 $ npm install
 ```
 
+## Create Redis Container
+docker pull redis
+
+docker run --name redis-server -p 6379:6379 -d redis
+
 ## Running the app
 
 ```bash
